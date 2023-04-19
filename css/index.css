@@ -1,0 +1,220 @@
+body{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+    color: #ff771d;
+    background: #2315573d;
+  }
+  
+  ::selection {
+    color: #ff771d;
+    background: #23155725;
+  }
+
+.nav-item{
+    border: 1px solid black;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    transition: 0.5s;
+    margin-left: 3px;
+}
+
+.nav-item:hover{
+    background-color:white ;
+    border-radius: 12px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar{
+    background-color: rgb(37, 34, 39);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 0px 18px 0px 18px;
+}
+
+.navbar-toggler{
+    color : white ;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.back{
+    background-color:rgb(37, 34, 39);
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 10px;
+    transition: 1s;
+}
+
+.back:hover{
+    color :rgb(37, 34, 39);
+    background-color: white;
+    border-radius: 12px;
+}
+
+.back1{
+    margin-top: 10px;
+    background-color:rgb(100, 95, 104);
+}
+
+.back2{
+    margin-top: 10px;
+    background-color:none;
+}
+
+.back3 ,  .back3-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:none;
+    box-sizing: border-box;
+}
+
+.description-title{
+    font-family :Georgia, 'Times New Roman', Times, serif ; 
+    /*color: white;*/
+    border: 1px solid rgb(37, 34, 39);
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    transition: 0.5s;
+}
+
+.description-title:hover{
+    border: 1px solid white;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+.description-text{
+    /*color :white ;*/ 
+   
+    font-size: 30px;
+    font-family :Georgia, 'Times New Roman', Times, serif ; 
+}
+
+.image-space{
+    margin: 5px 5px 5px 5px;
+}
+
+.positionage{
+    margin: 10px 10px 10px 10px;
+}
+
+.image-slider{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card{
+    margin: 5px 5px 5px 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.bg-card{
+    color : rgb(99, 98, 98);
+    background-color: white ;
+    border-color: rgb(99, 98, 98);
+    transition: 1s;
+}
+
+/* .bg-card:hover{
+    color: white;
+    background-color: rgb(37, 34, 39);
+} */
+
+.head{
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(37, 34, 39);
+    color: white;
+    text-align: center;
+ }
+
+ .text-image{
+    text-align: justify;
+    margin: 5px 5px 5px 5px;;
+ }
+
+ .img-decoration{
+    background: none;
+    border: none;
+ }
+ 
+ .card-text{
+    text-align: center;
+ }
+
+ .card1{
+    transition: 0.5s;
+    background-color: #231557;
+    color: white;
+ }
+
+ .card1:hover{
+    background-color: white;
+    color: rgb(37, 34, 39);
+ }
+
+ .card2{
+    transition: 0.5s;
+    background-color: #ff771d;
+    color: white;
+ }
+
+ .card2:hover{
+    background-color: white;
+    color: rgb(37, 34, 39);
+ }
+
+ .card3{
+    transition: 0.5s;
+    background-color:#44107a;
+    color: white;
+ }
+
+ .card3:hover{
+    background-color: white;
+    color: rgb(37, 34, 39);
+ }
+
+ .card4{
+    transition: 0.5s;
+    background-color: #02b7ff;
+    color: white;
+ }
+
+ .card4:hover{
+    background-color: white;
+    color: rgb(37, 34, 39);
+ }
+
+ .card5{
+    transition: 0.5s;
+    color: white;
+    background-color: rgb(37, 34, 39);
+ }
+
+ .card5:hover{
+    background-color: white;
+    color: rgb(37, 34, 39);
+} 
